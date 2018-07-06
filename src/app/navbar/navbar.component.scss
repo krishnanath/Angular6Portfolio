@@ -1,0 +1,60 @@
+.nav img.logo {
+  float: left;
+  text-align: left;
+
+  display: inline-block;
+}
+.nav ul {
+  background: rgb(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  display: flex;
+}
+.nav li {
+  font-size: 1pt;
+  display: block;
+  float: left;
+  height: 50px;
+  width: 80px; /*new*/
+  text-align: center; /*new*/
+  transition: all 0.2s ease-in-out;
+}
+.nav {
+  background: #070707;
+}
+.nav b {
+  font-size: 11px;
+  // font-style: oblique;
+  font-weight: 10;
+}
+
+.nav li a {
+  font-family: FontAwesome;
+  color: #eee;
+  font-size: 12pt;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+}
+.nav li i {
+  color: #646464;
+  // color: #08fdd8;
+  padding: 0 10px;
+}
+.nav li b {
+  padding: 15px 0;
+  display: none;
+  color: #08fdd8;
+}
+.nav a:hover {
+  color: #fff;
+}
+.nav a:hover i {
+  display: none;
+}
+.nav a:hover b {
+  display: block;
+}

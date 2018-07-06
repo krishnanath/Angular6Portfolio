@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  background: #222;
+  font-family: "Mountserrat", sans-serif;
+  height: 100vh;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 60px auto;
+  height: 100%;
+
+  #content {
+    padding: 30px 50px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        background: #a8ff78; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #78ffd6,
+          #a8ff78
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #78ffd6,
+          #a8ff78
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 8px;
+        a {
+          font-size: 1.5em;
+          text-decoration: none;
+          font-weight: bold;
+          color: #444;
+        }
+        ul {
+          margin-top: 20px;
+
+          li {
+            padding: 0;
+            a {
+              font-size: 1em;
+              font-weight: 300;
+            }
+          }
+        }
+      }
+    }
+  }
+}
