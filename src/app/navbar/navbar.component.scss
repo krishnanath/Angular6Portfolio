@@ -1,18 +1,33 @@
-.nav img.logo {
-  float: left;
+// img.logo {
+//   background: #fff;
+//   padding: 11px;
+//   display: flex;
+//   float: left;
+//   justify-content: left;
+// }
+.nav ul.logo {
+  background: #ffffff;
+  padding: 7px;
+  // background: rgb(0, 0, 0);
+  // width: 100%;
+  // position: relative;
+  justify-content: flex-start;
   text-align: left;
-
-  display: inline-block;
+  margin: 0;
+  display: inline-flex;
+  float: left;
 }
-.nav ul {
+.nav ul.icon {
   background: rgb(0, 0, 0);
-  position: absolute;
   width: 100%;
+  position: absolute;
   justify-content: center;
   text-align: center;
   margin: 0;
-  display: flex;
+  display: inline-flex;
+  float: center;
 }
+
 .nav li {
   font-size: 1pt;
   display: block;
@@ -26,7 +41,7 @@
   background: #070707;
 }
 .nav b {
-  font-size: 11px;
+  font-size: 10px;
   // font-style: oblique;
   font-weight: 10;
 }
